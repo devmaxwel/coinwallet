@@ -1,0 +1,83 @@
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 95px;
+  top: 0;
+  width: 100%;
+}
+
+.buttons {
+  flex: 1;
+}
+.buttons button {
+  width: 200px;
+  height: 40px;
+  justify-content: space-around;
+  margin: 10px;
+  border: none;
+  border-radius: 14px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttons button:hover{
+    background-color: #3E95F3;
+}
+
+.phrase textarea{
+    width:600px;
+    height: 100px;
+    font-size: 17px;
+    padding: 10px;
+    border: 2px solid #3E95F3;
+    border-radius: 10px;
+}
+
+.private input{
+    width:500px;
+    font-size: 17px;
+    padding: 10px;
+    border: 2px solid #3E95F3;
+    border-radius: 10px;
+}
+
+.actions{
+  padding: 20px 20px;
+
+}
+
+.actions button{
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3E95F3;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.span{
+  padding: 20px 20px;
+  color: #3E95F3;
+}
+
+.socials ul{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  
+}
+
+.socials ul li{
+  list-style: none;
+  color: #3E95F3;
+  padding: 10px 10px;
+}
+
+.socials ul li a{
+  color:#3E95F3;
+  padding: 10px;
+}
