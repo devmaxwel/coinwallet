@@ -82,8 +82,10 @@
 
 @media screen and (max-width: 991px) {
   .buttons button {
-    width: 140px;
+    width: 100px;
     height: 40px;
+    font-weight: 600;
+    font-size: 13px;
   }
   .phrase textarea {
     width: 300px;
@@ -96,6 +98,5 @@
   .actions button {
     width: 300px;
     height: 40px;
-
   }
 }
